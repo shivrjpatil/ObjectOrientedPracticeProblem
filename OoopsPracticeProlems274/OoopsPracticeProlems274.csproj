@@ -50,6 +50,7 @@
     <Compile Include="Pattern2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseEachString.cs" />
     <Compile Include="UniqueElementsinArray.cs" />
   </ItemGroup>
   <ItemGroup>
