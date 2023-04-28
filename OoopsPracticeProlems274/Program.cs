@@ -30,6 +30,10 @@ namespace OoopsPracticeProlems274
                     MaxMinInArray array1=new MaxMinInArray();
                     array1.MaxMin();
                     break;
+                case 5:
+                    Pattern1 pattern1=new Pattern1();
+                    pattern1.StarPattern();
+                    break;
             }
             Console.ReadLine();
         }
