@@ -10,7 +10,7 @@ namespace OoopsPracticeProlems274
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.Duplicate Elements in array\n2.Unique Element in array\n3.Frequency of Elements\n4.Maximum and Minimum in array");
+            Console.WriteLine("1.Duplicate Elements in array\n2.Unique Element in array\n3.Frequency of Elements\n4.Maximum and Minimum in array\n5.To print given pattern\n6.To print rectanguler pattern");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -33,6 +33,10 @@ namespace OoopsPracticeProlems274
                 case 5:
                     Pattern1 pattern1=new Pattern1();
                     pattern1.StarPattern();
+                    break;
+                case 6:
+                    Pattern2 pattern2=new Pattern2();
+                    pattern2.RectangulerPattern();
                     break;
             }
             Console.ReadLine();
