@@ -10,7 +10,7 @@ namespace OoopsPracticeProlems274
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.Duplicate Elements in array\n2.Unique Element in array");
+            Console.WriteLine("1.Duplicate Elements in array\n2.Unique Element in array\n3.Frequency of Elements");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -21,6 +21,10 @@ namespace OoopsPracticeProlems274
                 case 2:
                     UniqueElementsinArray unique=new UniqueElementsinArray();
                     unique.UniqueElement();
+                    break;
+                case 3:
+                    FrequencyofElement element=new FrequencyofElement();
+                    element.Elememt();
                     break;
             }
             Console.ReadLine();
