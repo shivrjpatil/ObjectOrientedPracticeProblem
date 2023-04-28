@@ -10,9 +10,19 @@ namespace OoopsPracticeProlems274
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.Duplicate Elements in array");
-            DuplicateElementinArray array=new DuplicateElementinArray();
-            array.Element();
+            Console.WriteLine("1.Duplicate Elements in array\n2.Unique Element in array");
+            int choose = Convert.ToInt32(Console.ReadLine());
+            switch (choose)
+            {
+                case 1:
+                   DuplicateElementinArray array = new DuplicateElementinArray();
+                   array.Element();
+                    break;
+                case 2:
+                    UniqueElementsinArray unique=new UniqueElementsinArray();
+                    unique.UniqueElement();
+                    break;
+            }
             Console.ReadLine();
         }
     }
